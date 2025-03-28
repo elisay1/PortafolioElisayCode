@@ -6,878 +6,1292 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 
-    - primary meta tags
-  -->
-  <title>ELISAY CODE - Portafolio</title>
-  <meta name="title" content="Elisay Code - Mi Portafolio sobre Mi experiencia en Tecnología y Programación">
-  <meta name="description" content="Mi portafolio en línea como ingeniero de sistemas. 
-  Aquí encontrarás una muestra de mis proyectos y logros en el campo de la ingeniería de sistemas, 
-  incluyendo desarrollo de software, administración de redes, seguridad informática y más.
-   Explora mi trabajo y conoce mis habilidades y experiencia en la tecnología y la informática.">
-  <meta name="robots" content="index, follow">
-  <meta name="google-site-verification" content="mxFzup2sbjpe71TdvcxGRRMfkbAdM0Aeffa4x5qVW4E" />
-  <meta name="google-site-verification" content="GDCdnu1BDAR39Mc95k0aOez4h-xolJDiC4jIsJ1mc68" />
+  <!-- Primary meta tags -->
+  <title>ELISAY CODE - Portafolio Profesional</title>
+  <meta name="description"
+    content="Desarrollador frontend y backend autodidacta. Experto en Java, PHP, MySQL, HTML, CSS, JavaScript y más.">
+  <meta name="keywords" content="desarrollo web, programación, frontend, backend, java, php, mysql">
 
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://elisaycode.com/">
+  <meta property="og:title" content="ELISAY CODE - Portafolio Profesional">
+  <meta property="og:description"
+    content="Desarrollador frontend y backend autodidacta. Experto en Java, PHP, MySQL, HTML, CSS, JavaScript y más.">
+  <meta property="og:image" content="./assets/img/og-image.jpg">
 
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://elisaycode.com/">
+  <meta property="twitter:title" content="ELISAY CODE - Portafolio Profesional">
+  <meta property="twitter:description"
+    content="Desarrollador frontend y backend autodidacta. Experto en Java, PHP, MySQL, HTML, CSS, JavaScript y más.">
+  <meta property="twitter:image" content="./assets/img/og-image.jpg">
 
-  <!-- 
-    - favicon
-  -->
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
 
-  <!-- 
-    - google font link
-  -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+  <!-- Boxicons -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-
-  <!-- 
-    - custom css link
-  -->
+  <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
-    - preload images
-  -->
+  <!-- Preload assets -->
   <link rel="preload" as="image" href="./assets/img/banner.png">
-  <link rel="preload" as="image" href="./assets/img/pattern-2.svg">
-  <link rel="preload" as="image" href="./assets/img/pattern-3.svg">
-
 </head>
 
-<body id="top" class="dark-mode">
+<body>
+  <!-- PRELOADER -->
+  <div class="preloader">
+    <div class="preloader-content">
+      <div class="preloader-logo">
+        <span class="letter">E</span>
+        <span class="letter">L</span>
+        <span class="letter">I</span>
+        <span class="letter">S</span>
+        <span class="letter">A</span>
+        <span class="letter">Y</span>
+      </div>
+      <div class="preloader-spinner">
+        <div class="spinner-dot"></div>
+        <div class="spinner-dot"></div>
+        <div class="spinner-dot"></div>
+      </div>
+      <div class="preloader-text">Cargando experiencia</div>
+      <div class="preloader-progress">
+        <div class="preloader-progress-bar"></div>
+      </div>
+    </div>
+  </div>
 
-  <!-- 
-    - #HEADER
-  -->
-
+  <!-- HEADER -->
   <header class="header" data-header>
     <div class="container">
-
       <a href="#" class="logo">
-        <img src="./assets/img/logo.svg" alt="ELISAY CODE logo">
-        <h2 class="logotext"><span>ELISAY</span>CODE</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 300 300">
+          <g fill="none" stroke-linecap="round" stroke-width="30">
+            <!-- Círculo exterior con los nuevos colores de la marca -->
+            <path d="M150 40 A110 110 0 0 1 260 150" stroke="#9D6BEE" stroke-dasharray="172" stroke-dashoffset="172">
+              <animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.5s" begin="0s" fill="freeze" />
+            </path>
+            <path d="M260 150 A110 110 0 0 1 150 260" stroke="#01A4F7" stroke-dasharray="172" stroke-dashoffset="172">
+              <animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.5s" begin="0.2s" fill="freeze" />
+            </path>
+            <path d="M150 260 A110 110 0 0 1 40 150" stroke="#01D3D2" stroke-dasharray="172" stroke-dashoffset="172">
+              <animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.5s" begin="0.4s" fill="freeze" />
+            </path>
+            <path d="M40 150 A110 110 0 0 1 150 40" stroke="#001333" stroke-dasharray="172" stroke-dashoffset="172">
+              <animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.5s" begin="0.6s" fill="freeze" />
+            </path>
+
+            <!-- Líneas centrales alineadas al centro con los nuevos colores -->
+            <line x1="115" y1="110" x2="180" y2="110" stroke="#01D3D2" stroke-dasharray="65" stroke-dashoffset="65">
+              <animate attributeName="stroke-dashoffset" from="65" to="0" dur="1s" begin="1.2s" fill="freeze" />
+            </line>
+            <line x1="115" y1="150" x2="170" y2="150" stroke="#F8B133" stroke-dasharray="55" stroke-dashoffset="55">
+              <animate attributeName="stroke-dashoffset" from="55" to="0" dur="1s" begin="1.6s" fill="freeze" />
+            </line>
+            <line x1="115" y1="190" x2="180" y2="190" stroke="#9D6BEE" stroke-dasharray="65" stroke-dashoffset="65">
+              <animate attributeName="stroke-dashoffset" from="65" to="0" dur="1s" begin="2s" fill="freeze" />
+            </line>
+
+            <!-- Punto fuscia/rosa con brillo -->
+            <circle cx="190" cy="150" r="15" fill="#dc286f" stroke="none" opacity="0">
+              <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.4s" fill="freeze" />
+              <animate attributeName="r" values="15;17;15" dur="3s" begin="2.6s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </svg>
+        <h2 class="logo-text"><span class="text-gradient">ELISAY</span>CODE</h2>
       </a>
 
-      <nav class="navbar" data-navbar>
-
-        <div class="navbar-top">
-          <a href="#" class="logo">
-            <img src="./assets/img/logo.svg" width="119" height="37" alt="ELISAY CODE logo">
-            <h2 class="logotext" style="--i:5;"><span>ELISAY</span>CODE</h2>
-          </a>
-
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
-        </div>
-
-        <ul class="navbar-list">
-
-          <li>
-            <a href="#home" style="--i:6;" class="navbar-link hover-1" data-nav-toggler>Inicio</a>
-          </li>
-
-          <li>
-            <a href="#about" style="--i:7;" class="navbar-link hover-1" data-nav-toggler>Acerca de</a>
-          </li>
-
-          <li>
-            <a href="#tags" style="--i:8;" class="navbar-link hover-1" data-nav-toggler>Habilidades</a>
-          </li>
-
-          <li>
-            <a href="#Proyectos" style="--i:9;" class="navbar-link hover-1" data-nav-toggler>Proyectos</a>
-          </li>
-
-          <li>
-            <a href="#contacto" style="--i:10;" class="navbar-link hover-1" data-nav-toggler>Contacto</a>
-          </li>
-
-        </ul>
-
-        <div class="navbar-bottom">
-
-          <div class="profile-card">
-            <img src="./assets/img/LOGO NOMBRE.png" width="48" height="48" alt="elisay" class="profile-banner">
-
-            <div>
-              <h2 class="card-title">HOLA! ELISAY CODE</h2>
-
-              <p class="card-subtitle">
-                Tienes 3 nuevos mensages
-              </p>
-            </div>
-          </div>
-
-          <ul class="link-list">
-
-            <li>
-              <a href="#" class="navbar-bottom-link hover-1">Perfil</a>
-            </li>
-
-            <li>
-              <a href="about" class="navbar-bottom-link hover-1">Acerca de</a>
-            </li>
-
-            <li>
-              <a href="tags" class="navbar-bottom-link hover-1">Habilidades</a>
-            </li>
-
-            <li>
-              <a href="Proyectos" class="navbar-bottom-link hover-1">Proyectos</a>
-            </li>
-
-            <li>
-              <a href="#" class="navbar-bottom-link hover-1">Crear Cuenta</a>
-            </li>
-
-            <li>
-              <a href="#" class="navbar-bottom-link hover-1">Iniciar sesion</a>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <p class="copyright-text">
-          Copyright &nbsp;<span id="year"></span>© ELISAY CODE - Portafolio
-        </p>
-
-      </nav>
-
-      <a target="_blank"
-        href="https://api.whatsapp.com/send?phone=+51921674886&text=%C2%A1Hola!%20Cual%20es%20tu%20consulta"
-        class="btn btn-primary">Contáctame</a>
-
-      <div class="toggle">
-        <i class='bx bxs-moon toggle-icon'></i>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
 
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link">Inicio</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link">Acerca de</a>
+          </li>
+          <li>
+            <a href="#skills" class="navbar-link">Habilidades</a>
+          </li>
+          <li>
+            <a href="#projects" class="navbar-link">Proyectos</a>
+          </li>
+          <li>
+            <a href="#community" class="navbar-link">Comunidad</a>
+          </li>
+          <li>
+            <a href="#contact" class="navbar-link">Contacto</a>
+          </li>
+        </ul>
 
-
+        <div class="header-right">
+          <div class="auth-buttons">
+            <button class="btn-login">Iniciar Sesión</button>
+            <button class="btn-register">Registrarse</button>
+          </div>
+          <button class="theme-toggle" aria-label="Cambiar tema">
+            <i class='bx bxs-moon'></i>
+          </button>
+        </div>
+      </nav>
     </div>
   </header>
 
-
-
-
-
   <main>
-    <article>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="badge animate-on-scroll">
+              <i class='bx bx-code-alt'></i>
+              Desarrollo Web & Móvil
+            </div>
 
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="hero" id="home" aria-label="home">
-        <div class="container">
-
-          <div class="hero-content">
-
-            <p class="cx ">Hola Bienvenido!</p>
-
-            <h2 class="headline headline-1 section-title">
-              Soy <span class="negri">ELISAY CODE</span>
-            </h2>
-
-            <h1 class="hero-text">
-              Estudiante de ingenieria de sistemas Desarrollador autodidacta de front-end y backend | Java, PHP,
-              Mysql, SQL, HTML, CSS, SASS,
-              Bootstrap, JavaScript. busco crear proyectos que brinden la mejor experiencia para el usuario.
+            <h1 class="hero-title animate-on-scroll">
+              Hola! Soy <span class="text-gradient typing-text">ELISAY CODE</span> <br>
+              <span class="hero-subtitle">Desarrollador Full Stack</span>
             </h1>
 
-            <div class="btn-container">
-              <a href="assets/CV-Eli-Sayes-Castañeda-Lopez.pdf" class="btn">Descarga CV</a>
-              <a target="_blank"
-                href="https://api.whatsapp.com/send?phone=+51921674886&text=%C2%A1Hola!%20Cual%20es%20tu%20consulta"
-                class="btn2">Contacto</a>
+            <p class="hero-description animate-on-scroll">
+              Estudiante de ingeniería de sistemas y desarrollador autodidacta, especializado en crear experiencias
+              digitales excepcionales. Experto en Java, PHP, MySQL, HTML, CSS, y JavaScript.
+            </p>
+
+            <div class="hero-cta animate-on-scroll">
+              <a href="assets/CV-Eli-Sayes-Castañeda-Lopez.pdf" class="btn btn-primary" download>
+                <i class='bx bx-download'></i> Descargar CV
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class='bx bx-envelope'></i> Contacto
+              </a>
             </div>
 
-            <div class="social-media">
-              <a target="_blank" href="https://www.youtube.com/@DevCode_256" ;><i class='bx bxl-youtube'></i></a>
-              <a target="_blank" href="https://www.instagram.com/eli.sayes/" ;><i class='bx bxl-instagram'></i></a>
-              <a target="_blank" href="https://github.com/elisay1" ;><i class='bx bxl-github'></i></a>
-              <a target="_blank" href="https://www.tiktok.com/@elisaycode" ;><i class='bx bxl-tiktok'></i></a>
-              <a target="_blank" href="https://www.linkedin.com/in/elicasta%C3%B1eda/" ;><i
-                  class='bx bxl-linkedin-square'></i></a>
+            <div class="hero-stats animate-on-scroll">
+              <div class="stat-item">
+                <div class="stat-value">+3</div>
+                <div class="stat-label">Proyectos completados</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">+1</div>
+                <div class="stat-label">Año de experiencia</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">10+</div>
+                <div class="stat-label">Tecnologías dominadas</div>
+              </div>
             </div>
           </div>
 
+          <div class="hero-image animate-on-scroll">
+            <div class="image-container">
+              <img src="./assets/img/banner.png" alt="ELISAY CODE" class="hero-img">
 
-          <div class="hero-banner">
-
-            <img src="./assets/img/banner.png" width="120" height="190" alt="elisay code" class="w-100">
-
-            <img src="./assets/img/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
-
-            <img src="./assets/img/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
-
-          </div>
-
-          <img src="./assets/img/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
-
-          <img src="./assets/img/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
-
-        </div>
-      </section>
-      <!-- End Hero Section -->
-
-
-      <section class="about" id="about" aria-label="about">
-        <h3 style="--i:4;" class="title">Sobre mi</h3>
-        <div class="section-container">
-          <div class="section__pic-container">
-            <img src="assets/img/profile.jpg" alt="Foto Perfil" class="about-pic" />
-          </div>
-
-          <div class="about-details-container">
-
-            <div class="about-containers">
-              <div class="details-container">
-                <i class='bx bxs-medal'></i>
-                <h3>Experiencia</h3>
-                <p><span>+1</span>Experiencia <br />Desarrollo front-end</p>
+              <div class="tech-badge tech-badge-1">
+                <i class='bx bxl-html5'></i>
+                <span>HTML5</span>
               </div>
 
-              <div class="details-container">
-                <i class='bx bxs-book-reader'></i>
-                <h3>Educación</h3>
-                <p>I.E. "Juan Acevedo Arce"<br />Universidad UCV</p>
+              <div class="tech-badge tech-badge-2">
+                <i class='bx bxl-css3'></i>
+                <span>CSS3</span>
               </div>
 
-              <div class="details-container">
-                <i class='bx bxs-shapes'></i>
-                <h3>Proyectos</h3>
-                <p><span>+3</span><br />Completados</p>
+              <div class="tech-badge tech-badge-3">
+                <i class='bx bxl-javascript'></i>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="tech-badge tech-badge-4">
+                <i class='bx bxl-php'></i>
+                <span>PHP</span>
               </div>
             </div>
 
-            <div class="text-container">
-              <p>
-                Soy una persona enfocada en el trabajo en equipo, comunicación asertiva, responsable y proactiva, estoy
-                dispuesto a adquirir nuevos
-                conocimientos. Aspiro conseguir mi primer empleo en el mundo de la Programación Para adquirir
-                experiencia y fortalecer mi vida
-                profesional.!
-              </p>
-              <br />
-              <a target="_blank"
-                href="https://api.whatsapp.com/send?phone=+51921674886&text=%C2%A1Hola!%20Cual%20es%20tu%20consulta"
-                class="btn btn-primary">Contáctame</a>
-            </div>
+            <div class="hero-blob"></div>
           </div>
         </div>
-      </section>
 
+        <div class="social-links-floating">
+          <a href="https://www.linkedin.com/in/elicasta%C3%B1eda/" target="_blank" class="social-link"
+            aria-label="LinkedIn">
+            <i class='bx bxl-linkedin'></i>
+          </a>
+          <a href="https://github.com/elisay1" target="_blank" class="social-link" aria-label="GitHub">
+            <i class='bx bxl-github'></i>
+          </a>
+          <a href="https://www.instagram.com/eli.sayes/" target="_blank" class="social-link" aria-label="Instagram">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="https://www.tiktok.com/@elisaycode" target="_blank" class="social-link" aria-label="TikTok">
+            <i class='bx bxl-tiktok'></i>
+          </a>
+          <div class="social-links-line"></div>
+        </div>
+      </div>
+    </section>
 
-    </article>
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title animate-on-scroll">Sobre Mí</h2>
+          <p class="section-subtitle animate-on-scroll">Mi trayectoria personal y profesional</p>
+        </div>
+
+        <div class="about-container">
+          <div class="about-image animate-on-scroll">
+            <img src="assets/img/profile.jpg" alt="Foto Perfil" />
+            <div class="experience-badge">
+              <span class="experience-years">+1</span>
+              <span class="experience-text">Año de<br>Experiencia</span>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <h3 class="about-heading animate-on-scroll">Desarrollador Full Stack enfocado en crear soluciones digitales
+              de alto impacto</h3>
+
+            <p class="about-text animate-on-scroll">
+              Soy una persona enfocada en el <span class="highlight">trabajo en equipo</span>, comunicación asertiva,
+              responsable y proactiva. Mi pasión por la tecnología me impulsa a estar constantemente aprendiendo y
+              adaptándome a las nuevas tendencias del desarrollo web y móvil.
+            </p>
+
+            <p class="about-text animate-on-scroll">
+              Aspiro conseguir mi primer empleo en el mundo de la Programación para adquirir experiencia y fortalecer mi
+              vida profesional. Busco oportunidades donde pueda aplicar mis conocimientos y seguir creciendo como
+              desarrollador.
+            </p>
+
+            <div class="about-stats animate-on-scroll">
+              <div class="stat-card">
+                <i class='bx bxs-graduation stat-icon'></i>
+                <div class="stat-info">
+                  <h4>Educación</h4>
+                  <p>Universidad UCV<br>I.E. "Juan Acevedo Arce"</p>
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <i class='bx bxs-briefcase stat-icon'></i>
+                <div class="stat-info">
+                  <h4>Experiencia</h4>
+                  <p>Desarrollo Front-end<br>+1 Año</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta animate-on-scroll">
+              <a href="#contact" class="btn btn-primary">
+                <i class='bx bx-envelope'></i> Contáctame
+              </a>
+              <a href="#projects" class="btn btn-outline">
+                <i class='bx bx-code-block'></i> Ver proyectos
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title animate-on-scroll">Mis Habilidades</h2>
+          <p class="section-subtitle animate-on-scroll">Tecnologías y herramientas que domino</p>
+        </div>
+
+        <div class="skills-tabs animate-on-scroll">
+          <button class="skill-tab active" data-tab="frontend">Frontend</button>
+          <button class="skill-tab" data-tab="backend">Backend</button>
+          <button class="skill-tab" data-tab="mobile">Mobile</button>
+          <button class="skill-tab" data-tab="tools">Herramientas</button>
+        </div>
+
+        <div class="skills-content">
+          <!-- Frontend Skills -->
+          <div class="skills-grid active" data-content="frontend">
+            <!-- HTML -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-html5 skill-icon'></i>
+              <h3 class="skill-name">HTML</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="90"></div>
+              </div>
+              <p class="skill-level">Avanzado</p>
+            </div>
+
+            <!-- CSS -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-css3 skill-icon'></i>
+              <h3 class="skill-name">CSS</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="85"></div>
+              </div>
+              <p class="skill-level">Avanzado</p>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-javascript skill-icon'></i>
+              <h3 class="skill-name">JavaScript</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="75"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- SASS -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-sass skill-icon'></i>
+              <h3 class="skill-name">SASS</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="70"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- Bootstrap -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-bootstrap skill-icon'></i>
+              <h3 class="skill-name">Bootstrap</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="80"></div>
+              </div>
+              <p class="skill-level">Avanzado</p>
+            </div>
+
+            <!-- Tailwind -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-tailwind-css skill-icon'></i>
+              <h3 class="skill-name">Tailwind</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="65"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+          </div>
+
+          <!-- Backend Skills -->
+          <div class="skills-grid" data-content="backend">
+            <!-- PHP -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-php skill-icon'></i>
+              <h3 class="skill-name">PHP</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="75"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- Java -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-java skill-icon'></i>
+              <h3 class="skill-name">Java</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="65"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- MySQL -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bx-data skill-icon'></i>
+              <h3 class="skill-name">MySQL</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="80"></div>
+              </div>
+              <p class="skill-level">Avanzado</p>
+            </div>
+
+            <!-- Firebase -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-firebase skill-icon'></i>
+              <h3 class="skill-name">Firebase</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="60"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- JSON -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxs-file-json skill-icon'></i>
+              <h3 class="skill-name">JSON</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="75"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- Python -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-python skill-icon'></i>
+              <h3 class="skill-name">Python</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="40"></div>
+              </div>
+              <p class="skill-level">Básico</p>
+            </div>
+          </div>
+
+          <!-- Mobile Skills -->
+          <div class="skills-grid" data-content="mobile">
+            <!-- Flutter -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-flutter skill-icon'></i>
+              <h3 class="skill-name">Flutter</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="55"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- Android -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-android skill-icon'></i>
+              <h3 class="skill-name">Android</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="50"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- Dart -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bx-code-curly skill-icon'></i>
+              <h3 class="skill-name">Dart</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="55"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- Kotlin -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-kotlin skill-icon'></i>
+              <h3 class="skill-name">Kotlin</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="30"></div>
+              </div>
+              <p class="skill-level">Básico</p>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skills-grid" data-content="tools">
+            <!-- Git -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-git skill-icon'></i>
+              <h3 class="skill-name">Git</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="75"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- GitHub -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-github skill-icon'></i>
+              <h3 class="skill-name">GitHub</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="80"></div>
+              </div>
+              <p class="skill-level">Avanzado</p>
+            </div>
+
+            <!-- VS Code -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bx-code-alt skill-icon'></i>
+              <h3 class="skill-name">VS Code</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="85"></div>
+              </div>
+              <p class="skill-level">Avanzado</p>
+            </div>
+
+            <!-- Adobe -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-adobe skill-icon'></i>
+              <h3 class="skill-name">Adobe</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="50"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+
+            <!-- Figma -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bxl-figma skill-icon'></i>
+              <h3 class="skill-name">Figma</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="45"></div>
+              </div>
+              <p class="skill-level">Básico</p>
+            </div>
+
+            <!-- Server -->
+            <div class="skill-card animate-on-scroll">
+              <i class='bx bx-server skill-icon'></i>
+              <h3 class="skill-name">Server</h3>
+              <div class="progress-container">
+                <div class="progress-bar" data-progress="55"></div>
+              </div>
+              <p class="skill-level">Intermedio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title animate-on-scroll">Mis Proyectos</h2>
+          <p class="section-subtitle animate-on-scroll">Una muestra de mi trabajo reciente</p>
+        </div>
+
+        <div class="projects-header animate-on-scroll">
+          <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">TODOS</button>
+            <button class="filter-btn" data-filter="HTML">HTML</button>
+            <button class="filter-btn" data-filter="CSS">CSS</button>
+            <button class="filter-btn" data-filter="JS">JS</button>
+            <button class="filter-btn" data-filter="PHP">PHP</button>
+            <button class="filter-btn" data-filter="FLUTTER">FLUTTER</button>
+            <button class="filter-btn" data-filter="DATA">DATA</button>
+          </div>
+
+          <div class="projects-search">
+            <i class='bx bx-search'></i>
+            <input type="text" placeholder="Buscar proyectos...">
+          </div>
+        </div>
+
+        <div class="projects-loader">
+          <div class="loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <p>Cargando proyectos...</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <div class="project-card animate-on-scroll" data-category="HTML CSS JS">
+            <div class="project-image">
+              <img src="assets/img/pro-1.JPG" alt="Página web corporativa">
+              <div class="project-overlay">
+                <div class="project-tags">
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                  <span class="project-tag">JS</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Página web corporativa</h3>
+              <p class="project-description">Diseño y desarrollo de una página web corporativa responsiva con
+                animaciones personalizadas y funcionalidades interactivas.</p>
+              <p class="project-date">26 Enero 2023</p>
+              <div class="project-actions">
+                <a href="https://devcode256.github.io/DevCode_Portafolio/" target="_blank"
+                  class="project-btn project-btn-demo">
+                  <i class='bx bx-globe'></i> Demo
+                </a>
+                <a href="https://github.com/DevCode256/DevCode_Portafolio" target="_blank"
+                  class="project-btn project-btn-repo">
+                  <i class='bx bxl-github'></i> Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 2 -->
+          <div class="project-card animate-on-scroll" data-category="FLUTTER">
+            <div class="project-image">
+              <img src="assets/img/pro-2.png" alt="Calculadora en Flutter">
+              <div class="project-overlay">
+                <div class="project-tags">
+                  <span class="project-tag">DART</span>
+                  <span class="project-tag">FLUTTER</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Calculadora en Flutter</h3>
+              <p class="project-description">Aplicación de calculadora desarrollada con Flutter, con diseño moderno y
+                animaciones fluidas.</p>
+              <p class="project-date">26 Septiembre 2023</p>
+              <div class="project-actions"><a
+                  href="https://user-images.githubusercontent.com/109012405/266719077-7b5ea83b-e92b-419d-962c-f183360c098d.png"
+                  target="_blank" class="project-btn project-btn-demo">
+                  <i class='bx bx-globe'></i> Demo
+                </a>
+                <a href="https://github.com/elisay1/Calculadora-flutter" target="_blank"
+                  class="project-btn project-btn-repo">
+                  <i class='bx bxl-github'></i> Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 3 -->
+          <div class="project-card animate-on-scroll" data-category="HTML CSS JS">
+            <div class="project-image">
+              <img src="assets/img/pro-3.png" alt="Linktree para redes sociales">
+              <div class="project-overlay">
+                <div class="project-tags">
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                  <span class="project-tag">JS</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Linktree para redes sociales</h3>
+              <p class="project-description">Página personalizada tipo Linktree para centralizar todos mis perfiles
+                sociales con diseño limpio y moderno.</p>
+              <p class="project-date">26 Agosto 2023</p>
+              <div class="project-actions">
+                <a href="https://elisay1.github.io/My-Linktree/" target="_blank" class="project-btn project-btn-demo">
+                  <i class='bx bx-globe'></i> Demo
+                </a>
+                <a href="https://github.com/elisay1/My-Linktree" target="_blank" class="project-btn project-btn-repo">
+                  <i class='bx bxl-github'></i> Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 4 -->
+          <div class="project-card animate-on-scroll" data-category="FLUTTER DATA">
+            <div class="project-image">
+              <img src="assets/img/pro-6.JPG" alt="App de Pokemones con API">
+              <div class="project-overlay">
+                <div class="project-tags">
+                  <span class="project-tag">DART</span>
+                  <span class="project-tag">FLUTTER</span>
+                  <span class="project-tag">JSON</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">App de Pokemones con API</h3>
+              <p class="project-description">Aplicación móvil desarrollada con Flutter que consume la API de Pokémon
+                para mostrar información detallada de cada Pokémon.</p>
+              <p class="project-date">20 Septiembre 2023</p>
+              <div class="project-actions">
+                <a href="https://user-images.githubusercontent.com/109012405/269199124-ba2e53ea-af94-4fd6-89f7-a956a20d12ef.png"
+                  target="_blank" class="project-btn project-btn-demo">
+                  <i class='bx bx-globe'></i> Demo
+                </a>
+                <a href="https://github.com/elisay1/ApkFlutterPokeApp" target="_blank"
+                  class="project-btn project-btn-repo">
+                  <i class='bx bxl-github'></i> Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 5 -->
+          <div class="project-card animate-on-scroll" data-category="PHP DATA">
+            <div class="project-image">
+              <img src="assets/img/pro-5.jpg" alt="Sistema de Compra y venta">
+              <div class="project-overlay">
+                <div class="project-tags">
+                  <span class="project-tag">PHP</span>
+                  <span class="project-tag">MYSQL</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Sistema de Compra y venta con PHP y MYSQL</h3>
+              <p class="project-description">Sistema completo de gestión de inventario, compras y ventas desarrollado
+                con PHP y MySQL.</p>
+              <p class="project-date">26 Abril 2023</p>
+              <div class="project-actions">
+                <a href="https://sistemcompra.000webhostapp.com/" target="_blank" class="project-btn project-btn-demo">
+                  <i class='bx bx-globe'></i> Demo
+                </a>
+                <a href="https://github.com/elisay1" target="_blank" class="project-btn project-btn-repo">
+                  <i class='bx bxl-github'></i> Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 6 -->
+          <div class="project-card animate-on-scroll" data-category="HTML CSS">
+            <div class="project-image">
+              <img src="assets/img/pro-4.png" alt="Aplicación de Tareas">
+              <div class="project-overlay">
+                <div class="project-tags">
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Aplicación de Tareas</h3>
+              <p class="project-description">Lista de tareas interactiva con funcionalidades de agregar, eliminar y
+                marcar como completadas las tareas.</p>
+              <p class="project-date">26 Marzo 2023</p>
+              <div class="project-actions">
+                <a href="https://elisay1.github.io/AppTareas/" target="_blank" class="project-btn project-btn-demo">
+                  <i class='bx bx-globe'></i> Demo
+                </a>
+                <a href="https://github.com/elisay1/AppTareas" target="_blank" class="project-btn project-btn-repo">
+                  <i class='bx bxl-github'></i> Repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-pagination animate-on-scroll">
+          <button class="pagination-btn active">1</button>
+          <button class="pagination-btn">2</button>
+          <button class="pagination-btn">3</button>
+          <button class="pagination-btn next">
+            <i class='bx bx-chevron-right'></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMUNITY SECTION -->
+    <section class="community-section" id="community">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title animate-on-scroll">Únete a Nuestra Comunidad</h2>
+          <p class="section-subtitle animate-on-scroll">Comparte, aprende y crece junto a otros desarrolladores</p>
+        </div>
+
+        <div class="community-cards">
+          <!-- Tarjeta 1 -->
+          <div class="community-card animate-on-scroll">
+            <div class="community-card-icon">
+              <i class='bx bx-calendar-event'></i>
+            </div>
+            <h3>Eventos y Webinars</h3>
+            <p>Participa en eventos en línea y presenciales sobre desarrollo web, móvil y las últimas tecnologías.</p>
+            <div class="card-stats">
+              <div class="stat">
+                <span class="stat-num">15+</span>
+                <span class="stat-text">Eventos mensuales</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">200+</span>
+                <span class="stat-text">Participantes</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Ver Próximos</a>
+          </div>
+
+          <!-- Tarjeta 2 -->
+          <div class="community-card animate-on-scroll">
+            <div class="community-card-icon">
+              <i class='bx bx-chalkboard'></i>
+            </div>
+            <h3>Tutoriales y Recursos</h3>
+            <p>Accede a tutoriales exclusivos, recursos y materiales para mejorar tus habilidades de desarrollo.</p>
+            <div class="card-stats">
+              <div class="stat">
+                <span class="stat-num">50+</span>
+                <span class="stat-text">Tutoriales</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">30+</span>
+                <span class="stat-text">Tecnologías</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Explorar Recursos</a>
+          </div>
+
+          <!-- Tarjeta 3 -->
+          <div class="community-card animate-on-scroll">
+            <div class="community-card-icon">
+              <i class='bx bx-group'></i>
+            </div>
+            <h3>Networking</h3>
+            <p>Conecta con otros desarrolladores, comparte experiencias y encuentra colaboradores para tus proyectos.
+            </p>
+            <div class="card-stats">
+              <div class="stat">
+                <span class="stat-num">500+</span>
+                <span class="stat-text">Miembros</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">20+</span>
+                <span class="stat-text">Países</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Conectar</a>
+          </div>
+
+          <!-- Tarjeta 4 -->
+          <div class="community-card animate-on-scroll">
+            <div class="community-card-icon">
+              <i class='bx bx-code-block'></i>
+            </div>
+            <h3>Proyectos Colaborativos</h3>
+            <p>Participa en proyectos open source y colaborativos para ganar experiencia y construir tu portafolio.</p>
+            <div class="card-stats">
+              <div class="stat">
+                <span class="stat-num">25+</span>
+                <span class="stat-text">Proyectos activos</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">150+</span>
+                <span class="stat-text">Colaboradores</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Ver Proyectos</a>
+          </div>
+        </div>
+
+        <div class="community-cta animate-on-scroll">
+          <div class="cta-content">
+            <h3>¿Listo para unirte a nuestra comunidad?</h3>
+            <p>Forma parte de un grupo de desarrolladores apasionados por la tecnología y el aprendizaje continuo.</p>
+          </div>
+          <a href="#" class="btn btn-primary join-community-btn">
+            <i class='bx bx-user-plus'></i> Unirse a la comunidad
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title animate-on-scroll">Contáctame</h2>
+          <p class="section-subtitle animate-on-scroll">¿Tienes algún proyecto en mente? ¡Hablemos!</p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3 class="contact-heading animate-on-scroll">Información de Contacto</h3>
+            <p class="contact-description animate-on-scroll">
+              Estoy disponible para proyectos freelance y oportunidades de trabajo a tiempo completo. ¡Hablemos sobre
+              cómo puedo ayudarte!
+            </p>
+
+            <div class="contact-item animate-on-scroll">
+              <div class="contact-icon">
+                <i class='bx bx-envelope'></i>
+              </div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:elisayes@gmail.com" class="contact-value">elisayes@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item animate-on-scroll">
+              <div class="contact-icon">
+                <i class='bx bx-phone'></i>
+              </div>
+              <div>
+                <span class="contact-label">Teléfono</span>
+                <a href="tel:+51921674886" class="contact-value">+51 921 674 886</a>
+              </div>
+            </div>
+
+            <div class="contact-item animate-on-scroll">
+              <div class="contact-icon">
+                <i class='bx bx-map'></i>
+              </div>
+              <div>
+                <span class="contact-label">Ubicación</span>
+                <p class="contact-value">Trujillo - La Libertad, Perú</p>
+              </div>
+            </div>
+
+            <div class="social-links animate-on-scroll">
+              <a href="https://www.linkedin.com/in/elicasta%C3%B1eda/" target="_blank" class="social-link">
+                <i class='bx bxl-linkedin'></i>
+              </a>
+              <a href="https://github.com/elisay1" target="_blank" class="social-link">
+                <i class='bx bxl-github'></i>
+              </a>
+              <a href="https://www.instagram.com/eli.sayes/" target="_blank" class="social-link">
+                <i class='bx bxl-instagram'></i>
+              </a>
+              <a href="https://www.tiktok.com/@elisaycode" target="_blank" class="social-link">
+                <i class='bx bxl-tiktok'></i>
+              </a>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form animate-on-scroll">
+            <div class="form-group">
+              <label for="name" class="form-label">Nombre</label>
+              <div class="input-container">
+                <i class='bx bx-user'></i>
+                <input type="text" id="name" class="form-control" placeholder="Tu nombre completo">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <div class="input-container">
+                <i class='bx bx-envelope'></i>
+                <input type="email" id="email" class="form-control" placeholder="tu.email@ejemplo.com">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Asunto</label>
+              <div class="input-container">
+                <i class='bx bx-chat'></i>
+                <input type="text" id="subject" class="form-control" placeholder="¿Sobre qué quieres hablar?">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Mensaje</label>
+              <div class="input-container textarea-container">
+                <i class='bx bx-pencil'></i>
+                <textarea id="message" class="form-control" placeholder="Escribe tu mensaje aquí..."></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">
+              <i class='bx bx-send'></i> Enviar Mensaje
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- 
-        - #POPULAR TAGS
-      -->
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-info">
+            <a href="#" class="footer-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 300 300">
+                <g fill="none" stroke-linecap="round" stroke-width="30">
+                  <!-- Círculo exterior con los nuevos colores de la marca -->
+                  <path d="M150 40 A110 110 0 0 1 260 150" stroke="#9D6BEE" stroke-dasharray="172"
+                    stroke-dashoffset="172">
+                    <animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.5s" begin="0s" fill="freeze" />
+                  </path>
+                  <path d="M260 150 A110 110 0 0 1 150 260" stroke="#01A4F7" stroke-dasharray="172"
+                    stroke-dashoffset="172">
+                    <animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.5s" begin="0.2s"
+                      fill="freeze" />
+                  </path>
+                  <path d="M150 260 A110 110 0 0 1 40 150" stroke="#01D3D2" stroke-dasharray="172"
+                    stroke-dashoffset="172">
+                    <animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.5s" begin="0.4s"
+                      fill="freeze" />
+                  </path>
+                  <path d="M40 150 A110 110 0 0 1 150 40" stroke="#001333" stroke-dasharray="172"
+                    stroke-dashoffset="172">
+                    <animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.5s" begin="0.6s"
+                      fill="freeze" />
+                  </path>
 
-  <section class="tags" id="tags" aria-label="tags">
-    <div class="container">
+                  <!-- Líneas centrales alineadas al centro con los nuevos colores -->
+                  <line x1="115" y1="110" x2="180" y2="110" stroke="#01D3D2" stroke-dasharray="65"
+                    stroke-dashoffset="65">
+                    <animate attributeName="stroke-dashoffset" from="65" to="0" dur="1s" begin="1.2s" fill="freeze" />
+                  </line>
+                  <line x1="115" y1="150" x2="170" y2="150" stroke="#F8B133" stroke-dasharray="55"
+                    stroke-dashoffset="55">
+                    <animate attributeName="stroke-dashoffset" from="55" to="0" dur="1s" begin="1.6s" fill="freeze" />
+                  </line>
+                  <line x1="115" y1="190" x2="180" y2="190" stroke="#9D6BEE" stroke-dasharray="65"
+                    stroke-dashoffset="65">
+                    <animate attributeName="stroke-dashoffset" from="65" to="0" dur="1s" begin="2s" fill="freeze" />
+                  </line>
 
-      <h3 style="--i:4;" class="title">Mis Habilidades</h3>
-
-      <ul class="grid-list">
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxl-html5'></i>
-            <p class="habi-text">Html</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar1"></div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxl-javascript'></i>
-            <p class="habi-text">JavaScript</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar2">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxl-java'></i>
-            <p class="habi-text">&nbsp;Java</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar3">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxl-php'></i>
-            <p class="habi-text">Php</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar4">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxl-firebase'></i>
-            <p class="habi-text">Firebase</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar5">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxl-flutter'></i>
-            <p class="habi-text">Flutter</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar6">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <p class="habi-text">Json</p>
-            <i class='bx bxs-file-json'></i>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar7">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxs-data'></i>
-            <p class="habi-text">Data</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar8">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxl-adobe'></i>
-            <p class="habi-text">Adobe</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar9">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxl-sass'></i>
-            <p class="habi-text">Sass</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar10">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bx-git-branch'></i>
-            <p class="habi-text">Git</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar11"></div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <p class="habi-text">Sass</p>
-            <i class='bx bxl-tailwind-css '></i>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar12">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <p class="habi-text">Wordpress</p>
-            <i class='bx bxl-wordpress'></i>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar13">0%</div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="card tag-btn">
-            <p class="habi-text">Android</p>
-            <i class='bx bxl-android'></i>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar14">0%</div>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxl-python'></i>
-            <p class="habi-text">Python</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar15">0%</div>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="card tag-btn">
-            <i class='bx bxs-server'></i>
-            <p class="habi-text">Server</p>
-            <div class="progress-container">
-              <div class="progress-bar" id="progressBar16">0%</div>
-            </div>
-          </div>
-        </li>
-
-      </ul>
-
-    </div>
-  </section>
-
-  <section class="Proyectos" id="Proyectos" aria-label="Proyectos">
-
-    <div class="container-post">
-      <h3 style="--i:4;" class="title">Mis Proyectos</h3>
-
-      <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
-      <input type="radio" id="HTML" name="categories" value="HTML">
-      <input type="radio" id="CSS" name="categories" value="CSS">
-      <input type="radio" id="JS" name="categories" value="JS">
-      <input type="radio" id="PHP" name="categories" value="PHP">
-      <input type="radio" id="FLUTTER" name="categories" value="FLUTTER">
-      <input type="radio" id="DATA" name="categories" value="DATA">
-
-      <div class="container-category">
-        <label for="TODOS">TODOS</label>
-        <label for="HTML">HTML</label>
-        <label for="CSS">CSS</label>
-        <label for="JS">JS</label>
-        <label for="PHP">PHP</label>
-        <label for="FLUTTER">FLUTTER</label>
-        <label for="DATA">DATA</label>
-      </div>
-
-      <div class="posts">
-
-        <div class="post" data-category="HTML CSS JS">
-
-          <div class="ctn-img">
-            <img src="assets/img/pro-1.JPG" alt="proyectos">
-          </div>
-          <h2>pagina web tipo Corporativo | HTML - CSS - JS</h2>
-          <span>26 Enero 2023 - 12:00 am</span>
-          <ul class="ctn-tag">
-            <li>HTML</li>
-            <li>CSS</lid>
-            <li>JS</li>
-          </ul>
-          <div class="container_btn--proyectos">
-            <a href="https://devcode256.github.io/DevCode_Portafolio/" target="_blank">
-              <button class="btn_demo">
-                <img src="assets/img/icon-demo.png" alt="Demostración">DEMO
-              </button>
+                  <!-- Punto fuscia/rosa con brillo -->
+                  <circle cx="190" cy="150" r="15" fill="#dc286f" stroke="none" opacity="0">
+                    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.4s" fill="freeze" />
+                    <animate attributeName="r" values="15;17;15" dur="3s" begin="2.6s" repeatCount="indefinite" />
+                  </circle>
+                </g>
+              </svg>
+              <h2 class="logo-text"><span class="text-gradient">ELISAY</span>CODE</h2>
             </a>
 
-            <a href="https://github.com/DevCode256/DevCode_Portafolio" target="_blank">
-              <button class="btn_repo">
-                <img src="assets/img/icon-github.png" alt="Repositorio de github">REPO
-              </button>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="post" data-category="FLUTTER">
-
-          <div class="ctn-img"><img src="assets/img/pro-2.png" alt="proyectos"></div>
-          <h2>Creación de una Calculadra en Flutter</h2>
-          <span>26 Septiembre 2023 - 1:32 pm</span>
-          <ul class="ctn-tag">
-            <li>DART</li>
-            <li>FLUTTER</lid>
-          </ul>
-          <div class="container_btn--proyectos">
-            <a href="https://user-images.githubusercontent.com/109012405/266719077-7b5ea83b-e92b-419d-962c-f183360c098d.png"
-              target="_blank">
-              <button class="btn_demo">
-                <img src="assets/img/icon-demo.png" alt="Demostración">DEMO
-              </button>
-            </a>
-
-            <a href="https://github.com/elisay1/Calculadora-flutter" target="_blank">
-              <button class="btn_repo">
-                <img src="assets/img/icon-github.png" alt="Repositorio de github">REPO
-              </button>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="post" data-category="HTML CSS JS">
-
-          <div class="ctn-img"><img src="assets/img/pro-3.png" alt="proyectos"></div>
-          <h2>¡Linktree!😮 Para enlaces a redes sociales</h2>
-          <span>26 Agosto 2023 - 11:32 am</span>
-          <ul class="ctn-tag">
-            <li>HTML</li>
-            <li>CSS</lid>
-            <li>JS</li>
-          </ul>
-          <div class="container_btn--proyectos">
-            <a href="https://elisay1.github.io/My-Linktree/" target="_blank">
-              <button class="btn_demo">
-                <img src="assets/img/icon-demo.png" alt="Demostración">DEMO
-              </button>
-            </a>
-
-            <a href="https://github.com/elisay1/My-Linktree" target="_blank">
-              <button class="btn_repo">
-                <img src="assets/img/icon-github.png" alt="Repositorio de github">REPO
-              </button>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="post" data-category="FLUTTER DATA">
-
-          <div class="ctn-img"><img src="assets/img/pro-6.JPG" alt="proyectos"></div>
-          <h2>¡WOW!😍 Creamos una App de Pokemones consumido desde una Api</h2>
-          <span>20 Septiembre 2023 - 1:32 am</span>
-          <ul class="ctn-tag">
-            <li>DART</li>
-            <li>FLUTTER</li>
-            <li>JSON</li>
-          </ul>
-          <div class="container_btn--proyectos">
-            <a href="https://user-images.githubusercontent.com/109012405/269199124-ba2e53ea-af94-4fd6-89f7-a956a20d12ef.png"
-              target="_blank">
-              <button class="btn_demo">
-                <img src="assets/img/icon-demo.png" alt="Demostración">DEMO
-              </button>
-            </a>
-
-            <a href="https://github.com/elisay1/ApkFlutterPokeApp" target="_blank">
-              <button class="btn_repo">
-                <img src="assets/img/icon-github.png" alt="Repositorio de github">REPO
-              </button>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="post" data-category="PHP DATA">
-
-          <div class="ctn-img"><img src="assets/img/pro-5.jpg" alt="proyectos"></div>
-          <h2>Sistema de Compra y venta con PHP y MYSQL</h2>
-          <span>26 abril 2023 - 8:32 am</span>
-          <ul class="ctn-tag">
-            <li>PHP</li>
-            <li>MYSQL</li>
-          </ul>
-          <div class="container_btn--proyectos">
-            <a href="https://sistemcompra.000webhostapp.com/" target="_blank">
-              <button class="btn_demo">
-                <img src="assets/img/icon-demo.png" alt="Demostración">DEMO
-              </button>
-            </a>
-
-            <a href="https://github.com/elisay1" target="_blank">
-              <button class="btn_repo">
-                <img src="assets/img/icon-github.png" alt="Repositorio de github">REPO
-              </button>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="post" data-category="HTML CSS">
-
-          <div class="ctn-img"><img src="assets/img/pro-4.png" alt="proyectos"></div>
-          <h2>Aplicación de Tareas con HTML - CSS </h2>
-          <span>26 marzo 2023 - 10:32 am</span>
-          <ul class="ctn-tag">
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-          <div class="container_btn--proyectos">
-            <a href="https://elisay1.github.io/AppTareas/" target="_blank">
-              <button class="btn_demo">
-                <img src="assets/img/icon-demo.png" alt="Demostración">DEMO
-              </button>
-            </a>
-
-            <a href="https://github.com/elisay1/AppTareas" target="_blank">
-              <button class="btn_repo">
-                <img src="assets/img/icon-github.png" alt="Repositorio de github">REPO
-              </button>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="post" data-category="HTML">
-
-          <div class="ctn-img"><img src="assets/img/no_image.jpg" alt="proyectos"></div>
-          <h2>Pedirle a tu enamorada que sea tu novia en HTML CSS</h2>
-          <span>26 Abril 2023 - 11:32 am</span>
-          <ul class="ctn-tag">
-            <li>HTML</li>
-          </ul>
-          <div class="container_btn--proyectos">
-            <a href="https://elisay1.github.io/Quieres-ser-mi-novia/" target="_blank">
-              <button class="btn_demo">
-                <img src="assets/img/icon-demo.png" alt="Demostración">DEMO
-              </button>
-            </a>
-
-            <a href="https://github.com/elisay1/Quieres-ser-mi-novia" target="_blank">
-              <button class="btn_repo">
-                <img src="assets/img/icon-github.png" alt="Repositorio de github">REPO
-              </button>
-            </a>
-          </div>
-
-        </div>
-
-        <div class="post" data-category="PHP DATA">
-
-          <div class="ctn-img"><img src="assets/img/pro-8.png" alt="proyectos"></div>
-          <h2>Creación de un CRUD con inicio de sesión con PDO en PHP</h2>
-          <span>26 Julio 2023 - 11:32 am</span>
-          <ul class="ctn-tag">
-            <li>PHP</li>
-            <li>MYSQL</li>
-          </ul>
-          <div class="container_btn--proyectos">
-            <a href="https://github.com/elisay1/Registro-de-alumnos-con-login/tree/master" target="_blank">
-              <button class="btn_demo">
-                <img src="assets/img/icon-demo.png" alt="Demostración">DEMO
-              </button>
-            </a>
-
-            <a href="https://github.com/elisay1/Registro-de-alumnos-con-login/tree/main" target="_blank">
-              <button class="btn_repo">
-                <img src="assets/img/icon-github.png" alt="Repositorio de github">REPO
-              </button>
-            </a>
-          </div>
-
-        </div>
-
-
-
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer>
-    <div class="container">
-
-      <div class="card footer">
-
-        <div class="section footer-top">
-
-          <div class="footer-brand">
-
-            <a href="#" class="logo">
-              <img src="./assets/img/logo.svg" width="119" height="37" loading="lazy" alt="ELISAY CODE logo">
-              <h2 class="logotext"><span>ELISAY</span>CODE</h2>
-            </a>
-
-            <p class="footer-text">
-              Me gusta ser autodidacta con la capacidad de ofrecerte las mejores herramientas para la automatizacion de
-              procesos de tu negocio asi como el desarrollo de aplicaciones web, móviles y de escritorio.
+            <p class="footer-description">
+              Me gusta ser autodidacta con la capacidad de ofrecerte las mejores herramientas para la automatización de
+              procesos de tu negocio así como el desarrollo de aplicaciones web, móviles y de escritorio.
             </p>
-            <br>
 
-            <p class="footer-list-title">Ubicación</p>
-
-            <address class="footer-text address">
-              Trujillo - La Libertad
-            </address>
-
+            <div class="footer-newsletter">
+              <h3>Suscríbete a mi newsletter</h3>
+              <div class="newsletter-form">
+                <input type="email" placeholder="Tu email...">
+                <button type="submit" class="btn btn-primary">
+                  <i class='bx bx-paper-plane'></i>
+                </button>
+              </div>
+            </div>
           </div>
 
-          <div class="footer-list">
+          <div class="footer-links-container">
+            <div class="footer-links-wrapper">
+              <h3 class="footer-title">Enlaces Rápidos</h3>
+              <ul class="footer-links">
+                <li><a href="#home" class="footer-link">Inicio</a></li>
+                <li><a href="#about" class="footer-link">Acerca de</a></li>
+                <li><a href="#skills" class="footer-link">Habilidades</a></li>
+                <li><a href="#projects" class="footer-link">Proyectos</a></li>
+                <li><a href="#community" class="footer-link">Comunidad</a></li>
+                <li><a href="#contact" class="footer-link">Contacto</a></li>
+              </ul>
+            </div>
 
-            <p class="footer-list-title">Proyectos</p>
+            <div class="footer-links-wrapper">
+              <h3 class="footer-title">Proyectos</h3>
+              <ul class="footer-links">
+                <li><a href="#projects" class="footer-link">Web</a></li>
+                <li><a href="#projects" class="footer-link">Móvil</a></li>
+                <li><a href="#projects" class="footer-link">APIs</a></li>
+                <li><a href="#projects" class="footer-link">Base de Datos</a></li>
+                <li><a href="#projects" class="footer-link">Escritorio</a></li>
+              </ul>
+            </div>
 
-            <ul>
+            <div class="footer-links-wrapper">
+              <h3 class="footer-title">Contacto</h3>
+              <ul class="footer-contact-list">
+                <li class="footer-contact-item">
+                  <i class='bx bx-map-pin'></i>
+                  <span>Trujillo - La Libertad, Perú</span>
+                </li>
+                <li class="footer-contact-item">
+                  <i class='bx bx-envelope'></i>
+                  <a href="mailto:elisayes@gmail.com">elisayes@gmail.com</a>
+                </li>
+                <li class="footer-contact-item">
+                  <i class='bx bx-phone'></i>
+                  <a href="tel:+51921674886">+51 921 674 886</a>
+                </li>
+              </ul>
 
-              <li>
-                <a href="#CSS FLUTTER" class="footer-link hover-2">Web</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer-link hover-2">Moviles</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer-link hover-2">Apis</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer-link hover-2">Base Datos</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer-link hover-2">Escrtorio</a>
-              </li>
-
-            </ul>
-
+              <div class="footer-social">
+                <a href="https://www.facebook.com/elisay.code/" target="_blank" class="footer-social-link"
+                  aria-label="Facebook">
+                  <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.instagram.com/eli.sayes/" target="_blank" class="footer-social-link"
+                  aria-label="Instagram">
+                  <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.tiktok.com/@elisaycode" target="_blank" class="footer-social-link"
+                  aria-label="TikTok">
+                  <i class='bx bxl-tiktok'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/elicasta%C3%B1eda/" target="_blank" class="footer-social-link"
+                  aria-label="LinkedIn">
+                  <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/elisay1" target="_blank" class="footer-social-link" aria-label="GitHub">
+                  <i class='bx bxl-github'></i>
+                </a>
+              </div>
+            </div>
           </div>
-
-          <div class="footer-list">
-
-            <p class="footer-list-title">Contacto</p>
-
-            <div class="input-wrapper">
-              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
-
-              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <div class="input-wrapper">
-              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
-                autocomplete="off">
-
-              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <div class="input-wrapper">
-              <input type="text" name="Mensaje" placeholder="Mensaje" required class="input-field" autocomplete="on">
-
-              <ion-icon name="pencil-outline"></ion-icon>
-            </div>
-
-            <a href="#" class="btn btn-primary">
-              <button type="submit" class="custom-button">Enviar</button>
-            </a>
-
-          </div>
-
         </div>
-
-        <div class="footer-bottom">
-
-          <p class="copyright">
-            &copy; Desarrollado Por <a target="_blank"
-              href="https://api.whatsapp.com/send?phone=+51921674886&text=%C2%A1Hola!%20Cual%20es%20tu%20consulta"
-              class="copyright-link">ELISAY CODE.</a>
-          </p>
-
-          <ul class="social-list">
-
-            <li>
-              <a target="_blank" href="https://www.facebook.com/elisay.code/" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-
-                <span class="txtr">Facebook</span>
-              </a>
-            </li>
-
-            <li>
-              <a target="_blank" href="https://www.instagram.com/eli.sayes/" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-
-                <span class="txtr">Instagram</span>
-              </a>
-            </li>
-
-            <li>
-              <a target="_blank" href="https://www.tiktok.com/@elisaycode" class="social-link">
-                <ion-icon name="logo-tiktok"></ion-icon>
-
-                <span class="txtr">Tik Tok</span>
-              </a>
-            </li>
-
-            <li>
-              <a target="_blank" href="https://www.linkedin.com/in/elicasta%C3%B1eda/"
-                class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-
-                <span class="txtr">LinkedIn</span>
-              </a>
-            </li>
-
-            <li>
-              <a target="_blank" href="https://github.com/elisay1" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-
-                <span class="txtr">Github</span>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
       </div>
+    </div>
 
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; <span class="current-year">2023</span> - Desarrollado por <a href="#" class="copyright-link">ELISAY
+            CODE</a>
+        </p>
+
+        <ul class="footer-bottom-links">
+          <li><a href="#" class="footer-bottom-link">Términos y Condiciones</a></li>
+          <li><a href="#" class="footer-bottom-link">Política de Privacidad</a></li>
+        </ul>
+      </div>
     </div>
   </footer>
 
-
-
-
-
-  <!-- 
-    - #BACK TO TOP
-  -->
-
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  <!-- BACK TO TOP -->
+  <a href="#" class="back-top-btn" aria-label="Volver arriba">
+    <i class='bx bx-chevron-up'></i>
   </a>
 
+  <!-- LOGIN MODAL -->
+  <div class="modal-overlay login-modal-overlay">
+    <div class="modal">
+      <button class="modal-close">
+        <i class='bx bx-x'></i>
+      </button>
 
+      <div class="modal-header">
+        <h3 class="modal-title">Iniciar Sesión</h3>
+        <p class="modal-subtitle">Ingresa a tu cuenta para acceder a más funcionalidades</p>
+      </div>
 
+      <div class="modal-body">
+        <form class="modal-form login-form">
+          <div class="form-group">
+            <label for="login-email" class="form-label">Email</label>
+            <div class="input-container">
+              <i class='bx bx-envelope'></i>
+              <input type="email" id="login-email" class="form-control" placeholder="tu.email@ejemplo.com">
+            </div>
+          </div>
 
+          <div class="form-group">
+            <label for="login-password" class="form-label">Contraseña</label>
+            <div class="input-container">
+              <i class='bx bx-lock-alt'></i>
+              <input type="password" id="login-password" class="form-control" placeholder="Tu contraseña">
+            </div>
+          </div>
 
-  <!-- 
-    - custom js link
-  -->
+          <div class="form-footer">
+            <div class="remember-me">
+              <input type="checkbox" id="remember">
+              <label for="remember">Recordarme</label>
+            </div>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            <i class='bx bx-log-in'></i> Iniciar Sesión
+          </button>
+        </form>
+
+        <div class="modal-divider">
+          <span>O inicia sesión con</span>
+        </div>
+
+        <div class="social-login">
+          <button class="social-login-btn">
+            <i class='bx bxl-google'></i>
+          </button>
+          <button class="social-login-btn">
+            <i class='bx bxl-github'></i>
+          </button>
+          <button class="social-login-btn">
+            <i class='bx bxl-facebook'></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <p>¿No tienes una cuenta? <a href="#" class="switch-to-register">Regístrate</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- REGISTER MODAL -->
+  <div class="modal-overlay register-modal-overlay">
+    <div class="modal">
+      <button class="modal-close">
+        <i class='bx bx-x'></i>
+      </button>
+
+      <div class="modal-header">
+        <h3 class="modal-title">Crear Cuenta</h3>
+        <p class="modal-subtitle">Únete a nuestra comunidad de desarrolladores</p>
+      </div>
+
+      <div class="modal-body">
+        <form class="modal-form register-form">
+          <div class="form-group">
+            <label for="register-name" class="form-label">Nombre completo</label>
+            <div class="input-container">
+              <i class='bx bx-user'></i>
+              <input type="text" id="register-name" class="form-control" placeholder="Tu nombre completo">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="register-email" class="form-label">Email</label>
+            <div class="input-container">
+              <i class='bx bx-envelope'></i>
+              <input type="email" id="register-email" class="form-control" placeholder="tu.email@ejemplo.com">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="register-password" class="form-label">Contraseña</label>
+            <div class="input-container">
+              <i class='bx bx-lock-alt'></i>
+              <input type="password" id="register-password" class="form-control"
+                placeholder="Crea una contraseña segura">
+            </div>
+          </div>
+
+          <div class="form-footer">
+            <div class="remember-me">
+              <input type="checkbox" id="terms">
+              <label for="terms">Acepto los términos y condiciones</label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            <i class='bx bx-user-plus'></i> Crear Cuenta
+          </button>
+        </form>
+
+        <div class="modal-divider">
+          <span>O regístrate con</span>
+        </div>
+
+        <div class="social-login">
+          <button class="social-login-btn">
+            <i class='bx bxl-google'></i>
+          </button>
+          <button class="social-login-btn">
+            <i class='bx bxl-github'></i>
+            </button>
+            <button class="social-login-btn">
+              <i class='bx bxl-facebook'></i>
+            </button>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <p>¿Ya tienes una cuenta? <a href="#" class="switch-to-login">Inicia sesión</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notificaciones -->
+  <div class="notification-container"></div>
+
+  <!-- JavaScript -->
   <script src="./assets/js/script.js"></script>
-  <!-- <script src="./assets/sounds/"></script> -->
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>
